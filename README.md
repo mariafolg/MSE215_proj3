@@ -1,5 +1,5 @@
 # Project 3:Density Functional Theory and Machine Learning
-## MSE 215: Introduction to Computational Materials Science, Fall 2019 
+## MSE 215: Introduction to Computational Materials Science, Spring 2019 
 ## University of California, Berkeley
 ### Instructor: Matthew Sherburne
 ### Graduate Student Instructor: John Dagdelen
@@ -37,7 +37,7 @@ Project Description |
 * See description in [MSE 215 Project 3](https://github.com/mse215/project3/blob/master/MSE%20215%20Project%203%20(Spring%202019).ipynb)
 
 #### Problem 4 (Due Friday, 04/12/2019):
-* Walkthrough Notebook | Coming Soon!
+* Walkthrough Notebook | [03 - Problem 4](https://github.com/mse215/project3/blob/master/03%20-%20Problem%204.ipynb)
 
 ## Project 2 Grading: 
 ```
@@ -64,10 +64,17 @@ Explanation					10pts
 Thourough analysis of excerpt from literature	10pts
 
 Bulk Modulus ML:
-	Report features used			5pts
-	Report cross validation scores		5pts
-	Plot learning curves			10pts
-	Bulk modulus within 20% of DFT		5pts
-	Report final score on test set		5pts
-	Test set RMSE < 20 GPa			10pts
+	Linear Regression:
+	Plot predictions vs DFT			5pts
+	Report cross validation score		5pts
+	CV RMSE < 25 GPa			5pts
+	Discussion of results			5pts
+	
+	Random Forest:
+	Plot predictions vs DFT			5pts
+	Report cross validation score		5pts
+	CV RMSE < 20 GPa			5pts
+	Discussion of results			5pts
+	
+	Compare CPU time for DFT vs ML		10pts
 ```
